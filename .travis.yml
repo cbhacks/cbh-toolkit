@@ -2,4 +2,4 @@ language: generic
 os: linux
 dist: xenial
 script:
-  - stage1-script.sh
+  - ./stage1-script.sh
