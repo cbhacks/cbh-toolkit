@@ -9,7 +9,7 @@ pkg() {
     cp -r "$1" "${PKG_DIR}/$(basename "$1")"
 }
 
-pkg 'blank-sample-file'
+pkg 'content'
 
 RESULT_FILE=$( \
     printf \
