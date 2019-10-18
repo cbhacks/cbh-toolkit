@@ -9,6 +9,7 @@ pkg() {
     cp -r "$1" "${PKG_DIR}/$(basename "$1")"
 }
 
+pkg 'stage2-script.py'
 pkg 'content'
 
 RESULT_FILE=$( \
