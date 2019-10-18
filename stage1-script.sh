@@ -19,7 +19,7 @@ RESULT_FILE=$( \
 )
 
 rm -f "${RESULT_FILE}"
-7z a "${RESULT_FILE}" "${PKG_DIR}/."
+7z a "${RESULT_FILE}" "${PKG_DIR}/"'*'
 
 (
     # Don't deploy for pull requests (it will fail, no S3 keys).
