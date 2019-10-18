@@ -39,6 +39,8 @@ out_zip = None
 
 def handle_zip(zf, in_prefix='', out_prefix=''):
     for fi in zf.infolist():
+        if fi.filename.endswith('/'):
+            continue
         if not fi.filename.startswith(in_prefix):
             continue
         fi_name = out_prefix + fi.filename[len(in_prefix):]
