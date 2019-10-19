@@ -44,3 +44,11 @@ Software included in this package:
   Always select "M2/2352 track" when opening without CUE or CCD.
 
   Also useful for inspecting CD images for errors or other oddities.
+
+
+  -- MFAudio --
+  https://www.zophar.net/utilities/ps2util/mfaudio-1-1.html
+
+  Audio conversion software for PS1 and PS2 formats.
+
+  Can be used to convert audio to mono ADPCM format as used by Crash.
