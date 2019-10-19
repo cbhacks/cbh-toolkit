@@ -27,6 +27,14 @@ Software included in this package:
   WIP
 
 
+  -- HxD --
+  https://mh-nexus.de/en/downloads.php?product=HxD20
+
+  Hex editor.
+
+  A hex editor is essential for editing raw item data and NSD files.
+
+
   -- CDmage --
   https://www.romhacking.net/utilities/1435/
 
